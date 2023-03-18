@@ -1,0 +1,33 @@
+@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
+:root{
+    --Primary-Moderate-violet:hsl(263, 55%, 52%);
+    --Primary-Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Primary-Very-dark-blackish-blue:hsl(219, 29%, 14%);
+    --Primary-white:hsl(0, 0%, 100%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+#DanielClifford{
+    background-color: var(--Primary-Moderate-violet);
+}
+#JonathanWalters{
+    background-color: var(--Primary-Very-dark-blackish-blue);
+}
+#JeanetteHarmon{
+    background-color: var(--Primary-Very-dark-blackish-blue);
+}
+#PatrickAbrams{
+    background-color: var(--Primary-Very-dark-grayish-blue);
+}
+#KiraWhittle{
+    background-color: var(--Primary-white);
+}
+.card{
+}
