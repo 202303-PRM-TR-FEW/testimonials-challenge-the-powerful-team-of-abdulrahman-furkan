@@ -51,4 +51,14 @@ body {
     background-color: var(--Primary-white);
 }
 
+
+
 .card {}
+
+.container {
+    display: grid;
+    gap: 3rem;
+    width: 90%;
+    margin-top: 3rem;
+    margin: 3rem auto 3rem auto;
+}
