@@ -1,33 +1,54 @@
-@import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed);
-:root{
-    --Primary-Moderate-violet:hsl(263, 55%, 52%);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap');
+
+:root {
+    --Primary-Moderate-violet: hsl(263, 55%, 52%);
     --Primary-Very-dark-grayish-blue: hsl(217, 19%, 35%);
-    --Primary-Very-dark-blackish-blue:hsl(219, 29%, 14%);
-    --Primary-white:hsl(0, 0%, 100%);
+    --Primary-Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --Primary-white: hsl(0, 0%, 100%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
 }
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: var(--Light-Grayish-Blue);
+}
+
 .attribution {
-  font-size: 11px;
-  text-align: center;
+    font-size: 11px;
+    text-align: center;
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+    color: hsl(228, 45%, 44%);
 }
-#DanielClifford{
+
+#DanielClifford {
+    background-repeat: no-repeat;
     background-color: var(--Primary-Moderate-violet);
 }
-#JonathanWalters{
+
+#quotation {
+    float: right;
+    margin-right: 10%;
+}
+
+#JonathanWalters {
     background-color: var(--Primary-Very-dark-blackish-blue);
 }
-#JeanetteHarmon{
-    background-color: var(--Primary-Very-dark-blackish-blue);
-}
-#PatrickAbrams{
-    background-color: var(--Primary-Very-dark-grayish-blue);
-}
-#KiraWhittle{
+
+#JeanetteHarmon {
     background-color: var(--Primary-white);
 }
-.card{
+
+#PatrickAbrams {
+    background-color: var(--Primary-Very-dark-grayish-blue);
 }
+
+#KiraWhittle {
+    background-color: var(--Primary-white);
+}
+
+.card {}
