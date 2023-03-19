@@ -45,10 +45,10 @@ p {
     color: aliceblue;
 }
 
-#quotation {
-    float: right;
-    margin-right: 10%;
-
+#DanielClifford.quoate {
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 10%;
 }
 
 #JonathanWalters img {
@@ -92,6 +92,7 @@ p {
 }
 
 .card {
+    position: relative;
     box-shadow: 2px 2px 5px #56595b;
 }
 
